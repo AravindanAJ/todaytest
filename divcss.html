@@ -1,0 +1,94 @@
+<style>
+    .container {
+        display: grid;
+        width: 800px;
+        height: 600px;
+        grid-template-columns: 500px 1fr 1fr;
+        grid-template-rows: 80px 1fr 1fr 100px;
+        grid-gap: .5rem;
+      }
+      .header {
+        background: rgb(240, 8, 8);
+        grid-row: 1 / 2;
+        grid-column: 1 / 4;
+        text-align: center;
+        font-size: 50px;
+    
+      }
+      .sidebar {
+        grid-row: 2 / 4;
+        background: lightslategray;
+        grid-column: 1 / 2;
+        font-size: 25px;
+         }
+       .mcontent {
+        background: lightslategray;
+        grid-row: 2 / 3;
+        grid-column: 2 / 4;
+        font-size: 25px;
+      }
+      .leftcontent{
+        background:lightslategray;
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+        font-size: 25px;
+      }
+      .rightcontent {
+        background: lightslategray;
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+        font-size: 25px;
+      }
+      .footer {
+        grid-row: 4 / 5;
+        grid-column: 1 / 4;
+        background: rgb(9, 169, 233);
+        text-align-last: center;
+        font-size: 50px;
+      }
+      h1{
+          font-size: 25pt;
+          border: 10px solid red;
+          font-style: bold;
+          background: rgb(211, 233, 9);
+      }
+    </style>
+    <body>
+    <div class="container">
+        <div class="header">SPICY KITCHEN</div>
+        <div class="sidebar"><h1>NON-VEGETARIAN</h1> <PRE>
+            <li> CHICKEN BIRYANI</li>
+            <li> HYBERBAD CHICKEN BIRIYANI</li>
+            <li> TANDOORI CHICKEN BIRIYANI</li>
+            <li> THALAPAKATTI CHICKEN BIRIYANI</li>
+            <li> PRAWN BIRIYANI</li>
+            <li> MUTTON BIRIYANI</li>
+            <li> EGG BIRIYANI</li>
+
+        </PRE></div>
+        <div class="mcontent"><h1>VEGETARIAN</h1><PRE>
+            <li> VEG BIRIYANI</li>
+            <li> PANEER BIRIYANI</li>
+            <li> MUSHROOM BIRIYANI</li>
+            <li> PLAIN BIRIYANI</li>
+            
+        </PRE></div>
+        <div class="leftcontent"><h1>JUICES</h1><PRE>
+            <li>LEMON JUICE</li>
+            <li>APPLE JUICE</li>
+            <li>ALL MILKSHAKE</li>
+            <li>SMOOTHE</li>
+        </PRE></div>
+        <div class="rightcontent"><h1>SNACKES</h1><PRE>
+            <li>SAMOSA</li>
+            <li>PUFF</li>
+            <li>PANI POORI</li>
+           
+        </PRE></div>
+        <div class="footer">THANK YOU</div>
+   </div>
+
+
+</body>
+   
+    
